@@ -1,0 +1,1203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+}
+
+#menu{
+    height: 15%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#menu .logo img {
+    width: 160px;
+    left: 20px;
+    padding-top: 8px;
+    height: 60px;
+}
+
+#menu .broadcast{
+    text-align: center;
+}
+
+#menu .broadcast ul{
+    position: relative;
+    width:500px;
+    height: 100px;
+    right: 75px;
+}
+
+#menu .broadcast ul li{
+    margin-top: 15px;
+}
+
+#menu .broadcast ul li a{
+    position: relative;
+    color: black;
+    font-size: 20px;
+}
+
+#menu .broadcast .buy-theme{
+    color:green;
+}
+
+#menu .icons ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    right:0;  
+}
+
+#menu .icons ul li{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#menu .icons ul li a{
+    color: black;   
+}
+
+.badge {
+    position: relative;
+    right: 60px;
+    top: 45px;
+    border-radius: 50%;
+    height: 15px;
+    width: 20px;
+    padding: 0 5px;
+}
+
+#slider{
+    position: absolute;
+    margin-top: 85px;
+    height: 85%;
+    width: 100%;
+    background-image: url('../images/slide-medical-01.webp');
+    background-size: cover;
+}
+
+#slider .info{
+    position: absolute;
+    left: 70px;
+    top: 140px;
+}
+
+#slider h1{
+    font-weight: bolder;
+}
+
+#slider .lorem{
+    position: absolute;
+    top:110px;
+    width: 400px;
+    font-size: 14px;
+}
+
+#slider button{
+    position: absolute;
+    color: white; 
+    font-weight: bolder;
+    display:block;
+    height: 40px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: rgb(86, 210, 228);
+     top: 200px;
+}
+
+#slider button:hover {
+    background-color: black;
+    color:white;
+}
+
+#slider .button{
+    position: absolute;
+    left:550px;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+        border: 1px solid transparent;
+        background-color: white;
+        top:300px;
+}
+
+#slider .button ul{
+    list-style: none;
+    display: flex;
+}
+
+#slider .bigcircle{
+    position: absolute;
+    top: 5px;
+    left:10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+}
+
+#slider .littlecircle{
+    position: absolute;
+    top:10px;
+    right:20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#membership{
+    position: absolute;
+    margin-top: 570px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+
+#membership .fa-truck{
+    position: absolute;
+    font-size: 45px;
+    top: 15px;
+    left:40px;
+}
+
+#membership .truck h5{
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+#membership .truck span{
+    position: absolute;
+    top: 35px;
+    left:110px;
+}
+
+#membership .fa-person{
+    position: absolute;
+    font-size: 45px;
+    top: 15px;
+    left:25px;
+}
+
+#membership .worker h5{
+    font-weight: bold;
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left: 75px;
+}
+
+#membership .worker span{
+    position: absolute;
+    top: 35px;
+    left:75px;
+}
+
+#membership .fa-box{
+    position: absolute;
+    font-size: 45px;
+    top: 15px;
+    left:35px;
+}
+
+#membership .box h5{
+    font-weight: bold;
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left: 90px;
+}
+
+#membership .box span{
+    position: absolute;
+    top: 35px;
+    left:90px;
+}
+
+#membership .fa-box-archive{
+    position: absolute;
+    font-size: 45px;
+    top: 15px;
+    left:30px;
+}
+
+#membership .prize h5{
+    font-weight: bold;
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 90px;
+}
+
+#membership .prize span{
+    position: absolute;
+    top: 35px;
+    left:90px;
+}
+
+#products{
+    position: absolute;
+    top:655px;
+    width: 100%;
+    height: 730px;
+    background-color: rgb(251, 244, 244);
+    display: flex;
+}
+
+
+
+#products .arrivals{
+    position: absolute;
+    top:100px;
+    left:10px;
+    font-weight: bolder;
+}
+
+#products .antiseptic{
+    position: absolute;
+    top: 160px;
+    left:0;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+.antiseptic .img1{
+    position: absolute;
+    padding-right: 40px;
+    width: 320px;
+    height: 350px;
+}
+
+.antiseptic span{
+    position: absolute;
+    top:370px;
+    left:135px;
+    color:gray;
+}
+
+.antiseptic .word{
+    position: absolute;
+    top:400px;
+    left:40px;
+    width: 400px;
+    font-weight: 100px;
+}
+
+.antiseptic .num{
+    position: absolute;
+    top:430px;
+    left:125px;
+    font-weight: bolder;
+}
+
+.antiseptic .star{
+    position: absolute;
+    top:455px;
+    left:105px;
+    width: 100px;
+    height: 40px;
+}
+
+#products .mask{
+    position: absolute;
+    top: 160px;
+    width: 400px;
+    height: 500px;
+    left:322px;
+    background-color: white;
+}
+
+.mask .img1{
+    position: absolute;
+    padding-right: 40px;
+    width: 320px;
+    height: 350px;
+}
+
+.mask span{
+    position: absolute;
+    top:370px;
+    left:135px;
+    color:gray;
+}
+
+.mask .word{
+    position: absolute;
+    top:400px;
+    left:-30px;
+    width: 400px;
+    font-weight: 100px;
+}
+
+.mask .num{
+    position: absolute;
+    top:430px;
+    left:10px;
+    font-weight: bolder;
+}
+
+.mask .star{
+    position: absolute;
+    top:455px;
+    left:105px;
+    width: 100px;
+    height: 40px;
+}
+
+#products .termometer{
+    position: absolute;
+    top: 160px;
+    width: 400px;
+    height: 500px;
+    left:643px;
+    background-color: white;
+}
+
+.termometer .img1{
+    position: absolute;
+    padding-right: 40px;
+    width: 320px;
+    height: 350px;
+}
+
+.termometer .span1{
+    position: absolute;
+    top:370px;
+    left:135px;
+    color:gray;
+}
+
+.termometer .word{
+    position: absolute;
+    top:390px;
+    left:50px;
+    width: 200px;
+    text-align: center;
+    font-weight: 100px;
+}
+
+.termometer .num{
+    position: absolute;
+    top:435px;
+    left:100px;
+    font-weight: bolder;
+}
+
+.termometer .star{
+    position: absolute;
+    top:455px;
+    left:100px;
+    width: 100px;
+    height: 40px;
+}
+
+#products .termometer2{
+    position: absolute;
+    top: 160px;
+    width: 295px;
+    height: 500px;
+    left:965px;
+    background-color: white;
+}
+
+.termometer2 .img1{
+    position: absolute;
+    padding-right: 40px;
+    width: 275px;
+    height: 350px;
+}
+
+.termometer2 span{
+    position: absolute;
+    top:370px;
+    left:120px;
+    color:gray;
+}
+
+.termometer2 .word{
+    position: absolute;
+    top:400px;
+    left:20px;
+    width: 270px;
+    font-weight: 100px;
+}
+
+.termometer2 .num{
+    position: absolute;
+    top:430px;
+    left:125px;
+    font-weight: bolder;
+}
+
+.termometer2 .star{
+    position: absolute;
+    top:455px;
+    left:105px;
+    width: 100px;
+    height: 40px;
+}
+
+#sale{
+    background-color: rgb(251, 244, 244);
+    position: absolute;
+    top:1380px;
+    width: 100%;
+    height: 600px;
+}
+
+#sale .termometre{
+    position: absolute;
+    top:20px;
+    left:15px;
+    width: 380px;
+    height: 480px;
+    background-image: url('../images/termometre.webp');
+    background-size: cover;
+    transition: all .2s ease-in-out; 
+}
+
+.termometre h5{
+    color: white;
+    position: absolute;
+    top:250px;
+    left:200px;
+}
+
+.termometre h4{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top:270px;
+    left:200px;
+}
+
+.termometre button{
+    position: absolute;
+    color: black; 
+    top: 400px;
+    left:200px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+.termometre button:hover{
+    background-color: black;
+    color:white;
+}
+
+.termometre:hover{
+    transform: scale(1.1);
+}
+
+#sale .tezyiq{
+    position: absolute;
+    top:20px;
+    left:420px;
+    width: 400px;
+    height: 220px;
+    background-image: url('../images/tezyiq.webp');
+    background-size: cover;
+    transition: all .2s ease-in-out; 
+}
+
+.tezyiq h4{
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 30px;
+    top:50px;
+    left:50px;
+    width: 160px;
+}
+
+.tezyiq button{
+    position: absolute;
+    color: black; 
+    top: 130px;
+    left:50px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+.tezyiq button:hover{
+    background-color: black;
+    color:white;
+}
+
+.tezyiq:hover{
+    transform: scale(1.1);
+}
+
+#sale .facemask{
+    position: absolute;
+    top:280px;
+    left:420px;
+    width: 400px;
+    height: 220px;
+    background-image: url('../images/facemask.webp');
+    background-size: cover;
+    transition: all .2s ease-in-out; 
+}
+
+.facemask h4{
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 30px;
+    top:50px;
+    left:190px;
+    width: 200px;
+}
+
+.facemask button{
+    position: absolute;
+    color: black; 
+    top: 140px;
+    left:200px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+.facemask button:hover{
+    background-color: black;
+    color:white;
+}
+
+.facemask:hover{
+    transform: scale(1.1);
+}
+
+#sale .toothbrush{
+    position: absolute;
+    top:20px;
+    left:845px;
+    width: 400px;
+    height: 220px;
+    background-image: url('../images/tooth.webp');
+    background-size: cover;
+    transition: all .2s ease-in-out; 
+}
+
+.toothbrush h5{
+    color: white;
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+
+.toothbrush h4{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    width: 200px;
+    top:55px;
+    left:40px;
+}
+.toothbrush button{
+    position: absolute;
+    color: black; 
+    top: 150px;
+    left:45px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+.toothbrush button:hover{
+    background-color: black;
+    color:white;
+}
+
+.toothbrush:hover{
+    transform: scale(1.1);
+}
+
+#sale .vitamin{
+    position: absolute;
+    top:280px;
+    left:845px;
+    width: 400px;
+    height: 220px;
+    background-image: url('../images/vitamins.webp');
+    background-size: cover;
+    transition: all .2s ease-in-out; 
+}
+
+.vitamin h5{
+    color: white;
+    position: absolute;
+    top:30px;
+    left:200px;
+}
+
+.vitamin h4{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    width: 200px;
+    top:55px;
+    left:200px;
+}
+.vitamin button{
+    position: absolute;
+    color: black; 
+    top: 150px;
+    left:220px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+.vitamin button:hover{
+    background-color: black;
+    color:white;
+}
+
+.vitamin:hover{
+    transform: scale(1.1);
+}
+
+#bactery{
+    position: absolute;
+    width: 100%;
+    height:400px;
+    top: 1950px;
+}
+
+#bactery .text{
+    position: absolute;
+    top:50px;
+}
+
+#bactery .p1{
+    position: absolute;
+    top:70px;
+}
+
+#bactery .p2{
+    position: absolute;
+    top:170px;
+}
+
+#bactery .img{
+    position: absolute;
+    top:50px;
+    width: 100%;
+    height: 300px;
+    left:625px;
+    background-image: url('../images/virus2.png');
+    background-size: cover;
+}
+
+#precautions{
+    position: absolute;
+    width: 100%;
+    height:400px;
+    top: 2400px;
+    display: flex;
+}
+
+#precautions .wash{
+    position: absolute;
+    top: 100px;
+    left:50px;
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px 2px 2px 2px rgb(205, 201, 201);
+}
+
+.wash h5{
+    position: absolute;
+    top:210px;
+    right:10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.wash img{
+    position: absolute;
+    top:10px;
+    left:30px;
+    width: 200px;
+    height: 200px;
+}
+
+#precautions .mask{
+    position: absolute;
+    top: 100px;
+    left:350px;
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px 2px 2px 2px rgb(205, 201, 201);
+}
+
+.mask h5{
+    position: absolute;
+    top:210px;
+    right:10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.mask img{
+    position: absolute;
+    top:10px;
+    left:30px;
+    width: 200px;
+    height: 200px;
+}
+
+#precautions .hand{
+    position: absolute;
+    top: 100px;
+    left:650px;
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px 2px 2px 2px rgb(205, 201, 201);
+}
+
+.hand h5{
+    position: absolute;
+    top:210px;
+    left:30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.hand img{
+    position: absolute;
+    top:10px;
+    left:30px;
+    width: 200px;
+    height: 200px;
+}
+
+#precautions .home{
+    position: absolute;
+    top: 100px;
+    left:950px;
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px 2px 2px 2px rgb(205, 201, 201);
+}
+
+.home h5{
+    position: absolute;
+    top:210px;
+    left:65px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.home img{
+    position: absolute;
+    top:10px;
+    left:30px;
+    width: 200px;
+    height: 200px;
+}
+#precautions h2{
+    position: absolute;
+    left:20px;
+    font-weight: bolder;
+}
+
+#blog{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top:2820px;
+
+}
+
+#blog .a1{
+    position: absolute;
+    top:50px;
+    left:20px;
+    font-weight: bolder;
+    color:black;
+}
+
+#blog .a1:hover{
+    text-decoration: none;
+    color:aqua;
+}
+
+#blog .click{
+    position: absolute;
+    top:80px;
+    right:20px;
+}
+
+#blog .a2{
+    color:black;
+}
+
+#blog .a2:hover{
+    text-decoration: none;
+}
+
+#blog .tonometer{
+    position: absolute;
+    top:130px;
+    left:15px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+}
+
+.tonometer a{
+    position: absolute;
+    top:170px;
+    left:30px;
+    color:black;
+}
+
+.tonometer a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+
+.tonometer i{
+    position: absolute;
+    top:210px;
+    left:130px;
+    font-size: 14px;
+}
+
+.tonometer img{
+    position: absolute;
+    left:-10px;
+    width: 420px;
+    height: 170px;
+    transition: all .2s ease-in-out; 
+}
+
+.tonometer img:hover{
+    transform: scale(1.1);
+}
+
+#blog .antiseptic2{
+    position: absolute;
+    top:130px;
+    left:440px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+}
+
+.antiseptic2 a{
+    position: absolute;
+    top:170px;
+    left:5px;
+    color:black;
+    text-align: center;
+}
+
+.antiseptic2 a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+
+.antiseptic2 i{
+    position: absolute;
+    top:210px;
+    left:130px;
+    font-size: 14px;
+}
+
+.antiseptic2 img{
+    position: absolute;
+    left:-10px;
+    width: 420px;
+    height: 170px;
+    transition: all .2s ease-in-out; 
+}
+
+.antiseptic2 img:hover{
+    transform: scale(1.1);
+}
+
+#blog .steteskop{
+    position: absolute;
+    top:130px;
+    left:855px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+}
+
+.steteskop a{
+    position: absolute;
+    top:170px;
+    left:60px;
+    color:black;
+    text-align: center;
+}
+
+.steteskop a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+
+.steteskop i{
+    position: absolute;
+    top:210px;
+    left:130px;
+    font-size: 14px;
+}
+
+.steteskop img{
+    position: absolute;
+    left:-10px;
+    width: 415px;
+    height: 170px;
+    transition: all .2s ease-in-out; 
+}
+
+.steteskop img:hover{
+    transform: scale(1.1);
+}
+
+#purchase{
+    position: absolute;
+    background-color: rgb(29, 204, 204);
+    width: 100%;
+    height: 100px;
+    top:3250px;
+}
+
+#purchase i{
+    position: absolute;
+    top:20px;
+    left:250px;
+    font-size: 60px;
+    color:white;
+}
+
+#purchase h3{
+    position: absolute;
+    top:20px;
+    left:330px;
+    color:white;
+}
+
+#purchase h4{
+    position: absolute;
+    top:50px;
+    left:330px;
+    color:white;
+    font-size: 20px;
+}
+
+#purchase button{
+    position: absolute;
+    color: black; 
+    top: 30px;
+    right:130px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: white;
+}
+
+#purchase button:hover{
+    background-color: black;
+    color:white;
+}
+
+#about{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top:3350px;
+}
+
+#about .about-us{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 240px;
+    height: 300px;  
+}
+
+.about-us p{
+    position: absolute;
+    top: 40px;
+}
+
+#about .contact-info{
+    position: absolute;
+    top: 30px;
+    left: 280px;
+    width: 700px;
+    height: 300px;
+}
+
+.contact-info .link{
+    position: absolute;
+    top:0;
+    left:290px;
+}
+
+.contact-info .p1{
+    position: absolute;
+    top: 40px;
+}
+
+.contact-info .p2{
+    position: absolute;
+    top:40px;
+    left:290px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color:black;
+}
+
+.contact-info a:hover{
+    text-decoration: none;
+    color:rgb(31, 198, 170);
+}
+
+#about .socials{
+    position: absolute;
+    top: 30px;
+    left:770px;
+    width: 400px;
+    height: 300px;
+}
+
+.socials .icons{
+    position: absolute;
+    left:0;
+    top:40px;
+}
+
+.socials i{
+    font-size: 30px;
+    padding: 5px;
+    color:rgb(29, 204, 204);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(237, 229, 229);
+}
+
+.socials i:hover{
+    background-color: aquamarine;
+    color:white;
+}
+
+#about .newsletter{
+    position: absolute;
+    top: 30px;
+    left:1000px;
+    width: 400px;
+    height: 300px;
+}
+
+#email{
+    position: absolute;
+    top:40px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: rgb(237, 229, 229);
+}
+
+.newsletter button{
+    position: absolute;
+    color: white; 
+    top: 110px;
+    left:15px;
+    font-weight: bolder;
+    display:block;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+     border: 1px solid transparent;
+     background-color: rgb(29, 204, 204);
+}
+
+.newsletter button:hover{
+    background-color: black;
+    color:white;
+}
+
+#logos{
+    position: absolute;
+    top:3620px;
+    width: 100%;
+    height: 100px;
+}
+
+#logos .img1 img{
+    position: absolute;
+    top:20px;
+    width: 160px;
+    height: 70px;
+}
+
+#logos .logos2{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+    left:600px;
+}
+
+.logos2 i{
+    padding:15px;
+}
+
+.logos2 a{
+    color:black;
+}
+
+.logos2 a:hover{
+    color:rgb(29, 204, 204);
+    text-decoration: none;
+}
