@@ -32,7 +32,7 @@
     position: relative;
     width:500px;
     height: 100px;
-    right: 75px;
+    right: 120px;
 }
 
 #menu .broadcast ul li{
@@ -121,7 +121,7 @@
 
 #slider .button{
     position: absolute;
-    left:550px;
+    left:450px;
     height: 30px;
     width: 70px;
     border-radius: 30px;
@@ -230,7 +230,7 @@
     position: absolute;
     font-size: 45px;
     top: 15px;
-    left:30px;
+    left:50px;
 }
 
 #membership .prize h5{
@@ -238,13 +238,13 @@
     position: absolute;
     width: 200px;
     top: 10px;
-    left: 90px;
+    left: 120px;
 }
 
 #membership .prize span{
     position: absolute;
     top: 35px;
-    left:90px;
+    left:120px;
 }
 
 #products{
@@ -268,7 +268,7 @@
 #products .antiseptic{
     position: absolute;
     top: 160px;
-    left:0;
+    left:-50px;
     width: 400px;
     height: 500px;
     background-color: white;
@@ -276,7 +276,7 @@
 
 .antiseptic .img1{
     position: absolute;
-    padding-right: 40px;
+    padding-right: 55px;
     width: 320px;
     height: 350px;
 }
@@ -284,14 +284,14 @@
 .antiseptic span{
     position: absolute;
     top:370px;
-    left:135px;
+    left:120px;
     color:gray;
 }
 
 .antiseptic .word{
     position: absolute;
     top:400px;
-    left:40px;
+    left:20px;
     width: 400px;
     font-weight: 100px;
 }
@@ -299,14 +299,14 @@
 .antiseptic .num{
     position: absolute;
     top:430px;
-    left:125px;
+    left:110px;
     font-weight: bolder;
 }
 
 .antiseptic .star{
     position: absolute;
     top:455px;
-    left:105px;
+    left:90px;
     width: 100px;
     height: 40px;
 }
@@ -316,13 +316,13 @@
     top: 160px;
     width: 400px;
     height: 500px;
-    left:322px;
+    left:240px;
     background-color: white;
 }
 
 .mask .img1{
     position: absolute;
-    padding-right: 40px;
+    padding-right: 70px;
     width: 320px;
     height: 350px;
 }
@@ -330,14 +330,14 @@
 .mask span{
     position: absolute;
     top:370px;
-    left:135px;
+    left:120px;
     color:gray;
 }
 
 .mask .word{
     position: absolute;
     top:400px;
-    left:-30px;
+    left:-60px;
     width: 400px;
     font-weight: 100px;
 }
@@ -352,7 +352,7 @@
 .mask .star{
     position: absolute;
     top:455px;
-    left:105px;
+    left:90px;
     width: 100px;
     height: 40px;
 }
@@ -362,13 +362,13 @@
     top: 160px;
     width: 400px;
     height: 500px;
-    left:643px;
+    left:530px;
     background-color: white;
 }
 
 .termometer .img1{
     position: absolute;
-    padding-right: 40px;
+    padding-right: 70px;
     width: 320px;
     height: 350px;
 }
@@ -376,14 +376,14 @@
 .termometer .span1{
     position: absolute;
     top:370px;
-    left:135px;
+    left:120px;
     color:gray;
 }
 
 .termometer .word{
     position: absolute;
     top:390px;
-    left:50px;
+    left:40px;
     width: 200px;
     text-align: center;
     font-weight: 100px;
@@ -392,14 +392,14 @@
 .termometer .num{
     position: absolute;
     top:435px;
-    left:100px;
+    left:90px;
     font-weight: bolder;
 }
 
 .termometer .star{
     position: absolute;
     top:455px;
-    left:100px;
+    left:90px;
     width: 100px;
     height: 40px;
 }
@@ -409,7 +409,7 @@
     top: 160px;
     width: 295px;
     height: 500px;
-    left:965px;
+    left:830px;
     background-color: white;
 }
 
@@ -1186,7 +1186,7 @@
     position: absolute;
     top: 20px;
     font-size: 50px;
-    left:600px;
+    left:-40px;
 }
 
 .logos2 i{
